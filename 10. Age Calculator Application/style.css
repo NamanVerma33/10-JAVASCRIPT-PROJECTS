@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius:6px;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    font-size:16px;
+    margin: 5px 0px;
+}
+#birthdate{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+
+}
+.date-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+#result{
+    color: aliceblue;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: lightsalmon;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
